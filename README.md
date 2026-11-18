@@ -1,6 +1,6 @@
 # Nordic Roast Coffee – Företagswebbplats (Business Website)
 
-🔗 **Live-demo:** [https://marsilakova.github.io/nordic-roast-cofee](https://[github.io](https://marsilakova.github.io/nordic-roast-cofee/))
+🔗 **Live-demo:** [https://marsilakova.github.io/nordic-roast-cofee/](https://marsilakova.github.io/nordic-roast-cofee/))
 
 En modern, stilren och responsiv företagswebbplats för ett specialkafferosteri och kafé i Malmö, skapad med **HTML5, CSS3 och JavaScript**.
 
