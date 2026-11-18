@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nordic Roast Coffee | Specialty Roastery in Malmö</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">NORDIC<span>ROAST</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open Menu">☰</button>
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu & Beans</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Visit Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay">
+      <div class="container hero-content">
+        <span class="hero-tag">Specialty Coffee & Micro-Roastery • Malmö</span>
+        <h1>Slow Roasted. Mindfully Brewed.</h1>
+        <p>
+          Ethically sourced single-origin beans roasted in small batches in the heart of Malmö, paired with freshly baked Swedish cardamom buns.
+        </p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">Explore Menu</a>
+          <a href="#contact" class="btn btn-outline">Book a Tasting</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-text">
+        <span class="section-subtitle">Our Story</span>
+        <h2>Scandinavian Craft in Every Cup</h2>
+        <p>
+          Founded in Malmö in 2022, Nordic Roast Coffee celebrates the Scandinavian tradition of <em>fika</em> combined with precision specialty roasting. We partner directly with sustainable farms in Ethiopia, Colombia, and Guatemala.
+        </p>
+        <div class="stats-row">
+          <div class="stat-item">
+            <strong>100%</strong>
+            <span>Direct Trade</span>
+          </div>
+          <div class="stat-item">
+            <strong>Weekly</strong>
+            <span>Small-Batch Roasts</span>
+          </div>
+          <div class="stat-item">
+            <strong>Organic</strong>
+            <span>Local Bakery</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="images/baner.jpg"
+       alt="Pour over coffee brewing">
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu & Products with Filter -->
+  <section id="menu" class="section bg-warm">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Taste & Take Home</span>
+        <h2>Our Menu & Fresh Beans</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="coffee">Coffee Bar</button>
+          <button class="filter-btn" data-filter="beans">Roasted Beans</button>
+          <button class="filter-btn" data-filter="bakery">Fika & Bakery</button>
+        </div>
+      </div>
+
+      <div class="menu-grid" id="menu-grid">
+        <article class="menu-card" data-category="coffee">
+          <img src="images/flatwhite1.jpg" alt="Nordic Flat White" class="menu-img">
+          <div class="menu-body">
+            <div class="menu-card-header">
+              <h3>Nordic Flat White</h3>
+              <span class="price">48 SEK</span>
+            </div>
+            <p>Double shot of our house Ethiopian espresso with velvety steamed organic oat or whole milk.</p>
+          </div>
+        </article>
+
+        <article class="menuttps://unsplash.com-card" data-category="coffee">
+          <img src="images/V60.jpg" alt="V60 Hand Brew" class="menu-img">
+          <div class="menu-body">
+            <div class="menu-card-header">
+              <h3>V60 Hand Brew</h3>
+              <span class="price">55 SEK</span>
+            </div>
+            <p>Single-origin pour-over brewed to order, highlighting bright floral and citrus tasting notes.</p>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="beans">
+          <img src="images/beans1.jpg" alt="Malmö Morning Blend" class="menu-img">
+          <div class="menu-body">
+            <div class="menu-card-header">
+              <h3>Malmö Morning Blend (250g)</h3>
+              <span class="price">145 SEK</span>
+            </div>
+            <p>Balanced medium roast with notes of toasted hazelnut, dark chocolate, and sweet caramel.</p>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="beans">
+          <img src="images/beans3.jpg" alt="Ethiopia Yirgacheffe" class="menu-img">
+          <div class="menu-body">
+            <div class="menu-card-header">
+              <h3>Ethiopia Yirgacheffe (250g)</h3>
+              <span class="price">165 SEK</span>
+            </div>
+            <p>Light Nordic roast featuring jasmine aroma, bergamot, and juicy white peach acidity.</p>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="bakery">
+          <img src="images/bun.jpg" alt="Kardemummabulle" class="menu-img">
+          <div class="menu-body">
+            <div class="menu-card-header">
+              <h3>Kardemummabulle</h3>
+              <span class="price">42 SEK</span>
+            </div>
+            <p>Warm sourdough cardamom bun baked fresh every morning with freshly ground green cardamom.</p>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="bakery">
+          <img src="images/toast.jpg" alt="Rye and Avocado Smörgås" class="menu-img">
+          <div class="menu-body">
+            <div class="menu-card-header">
+              <h3>Rye & Avocado Smörgås</h3>
+              <span class="price">89 SEK</span>
+            </div>
+            <p>Danish-style dark rye bread topped with smashed avocado, pickled red onions, and hemp seeds.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Atmosphere</span>
+        <h2>Inside the Roastery</h2>
+      </div>
+      <div class="gallery-grid">
+        <img src="https://unsplash.com" alt="Latte art">
+        <img src="https://unsplash.com" alt="Coffee roasting">
+        <img src="https://unsplash.com" alt="Scandinavian cafe interior">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Booking Form -->
+  <section id="contact" class="section bg-warm">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="section-subtitle">Visit Us</span>
+        <h2>Find Your Fika Spot</h2>
+        <p><strong>Address:</strong> Södra Förstadsgatan 42, 211 43 Malmö</p>
+        <p><strong>Opening Hours:</strong><br>Mon – Fri: 07:30 – 18:00<br>Sat – Sun: 09:00 – 17:00</p>
+        <p><strong>Phone:</strong> +46 40 123 456</p>
+        <p><strong>Email:</strong> hello@nordicroast.se</p>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <h3>Reserve a Table or Cupping Session</h3>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <select id="service">
+          <option value="table">Table Reservation (Fika)</option>
+          <option value="tasting">Weekend Coffee Tasting</option>
+          <option value="wholesale">Wholesale Beans Inquiry</option>
+        </select>
+        <textarea id="message" rows="4" placeholder="Date, number of guests, or message..." required></textarea>
+        <button type="submit" class="btn btn-primary">Send Request</button>
+        <p id="form-status" class="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Nordic Roast Coffee Malmö. All rights reserved.</p>
+      <p>Crafted with HTML5, CSS3 & JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
